@@ -1,7 +1,7 @@
-import streamlit as st
-import pickle
 import numpy as np
-
+import streamlit as st
+import sklearn
+import pickle
 # MUST be first Streamlit command
 st.set_page_config(page_title="Addiction_Prediction", page_icon=":shark:", layout="wide")
 
