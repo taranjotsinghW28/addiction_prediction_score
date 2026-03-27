@@ -1,29 +1,27 @@
-Addiction Prediction Score
+Addiction Risk Prediction System
 
-A Machine Learning web application that predicts addiction risk score based on user input features.
-
-This project uses Linear Regression (scikit-learn) and is deployed using Streamlit.
+A machine learning–powered web application designed to predict an individual’s addiction risk score based on behavioral and personal input features. The project leverages supervised learning techniques to deliver accurate and real-time predictions through an intuitive interface.
 
 Project Overview
 
-The Addiction Prediction Score app allows users to:
+The application enables users to:
 
-Input personal and behavioral data
+Provide personal and behavioral inputs through a user-friendly interface
+Receive an instant prediction of their addiction risk score
+Interact with a responsive and dynamic web-based platform
 
-Predict addiction risk score
+The model is trained on structured data using regression techniques, ensuring reliable and interpretable results.
 
-Get instant results through an interactive web interface
-
-The model was trained using supervised machine learning techniques.
-
+Key Features
+End-to-end machine learning pipeline from data preprocessing to deployment
+Clean and interactive UI built with Streamlit
+Real-time prediction capability
+Efficient handling of input features and model inference
 Tech Stack
-
-Python
-
-Scikit-learn
-
-Pandas
-
-NumPy
-
-Streamlit
+Programming Language: Python
+Libraries & Frameworks: Scikit-learn, Pandas, NumPy
+Deployment: Streamlit
+Model Details
+Implemented Linear Regression for predicting continuous risk scores
+Performed data preprocessing including handling missing values and feature scaling
+Evaluated model performance using standard regression metrics
